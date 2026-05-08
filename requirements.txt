@@ -28,26 +28,26 @@
 
 
 # ── Core NLP ──────────────────────────────────────────────────────────────────
-spacy==3.7.4
+spacy>=3.7.0
 # After install, run: python -m spacy download en_core_web_sm
 
 # ── File Parsing ──────────────────────────────────────────────────────────────
-pdfplumber==0.11.4          # text + word bboxes from PDFs
-pymupdf==1.24.5              # link/annotation extraction from PDFs
-python-docx==1.1.2           # DOCX support
+pdfplumber>=0.11.0
+pymupdf>=1.24.0
+python-docx>=1.1.0
 
 # ── Date & Phone Normalisation ────────────────────────────────────────────────
-dateparser==1.2.0
-phonenumbers==8.13.39
+dateparser>=1.2.0
+phonenumbers>=8.13.0
 
 # ── Fuzzy Matching ────────────────────────────────────────────────────────────
-rapidfuzz==3.9.3
+rapidfuzz>=3.9.0
 
 # ── Web Framework ─────────────────────────────────────────────────────────────
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
-python-multipart==0.0.9
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
 
 # ── Utilities ─────────────────────────────────────────────────────────────────
-regex==2024.5.15
-tqdm==4.66.4
+regex>=2024.5.15
+tqdm>=4.66.4
