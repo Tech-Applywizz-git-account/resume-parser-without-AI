@@ -1,0 +1,44 @@
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Uploaded resumes — never bake into image
+uploads/
+*.pdf
+*.docx
+
+# Test files
+batch_test_results.json
+test_parser.py
+batch_test.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Env files
+.env
+*.env

@@ -19,6 +19,8 @@ origins = [
     "http://localhost:3000",
     "http://localhost:3001",
     "http://localhost:5173",
+    # ApplyWizz Chrome Extension
+    "chrome-extension://bheljcnpkikdilebihjlffjkciacifbn",
 ]
 
 app.add_middleware(
